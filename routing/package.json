@@ -1,0 +1,18 @@
+{
+  "name": "introduction",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "match": "nodemon matched-routes.js",
+    "query": "nodemon query.js",
+    "body": "nodemon body.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

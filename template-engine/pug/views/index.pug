@@ -1,0 +1,19 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="/style.css")
+        title pug template engine
+    body 
+        div 
+            header.red 
+                h1.red pug template engine
+            section.violet 
+                h2.green #{section}
+                p.gray ipsum dolor sit amet consectetur adipisicing elit. Odio expedita consectetur quae quis voluptas placeat illo animi unde quam, architecto eos quaerat aut dolor officia voluptate dolorum praesentium culpa? Reprehenderit.
+                each user in users
+                 li #{user.name}
+            footer
+                h3.red footer
+                a(href=link,target="_blank") mylink
