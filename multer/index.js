@@ -11,12 +11,25 @@ app.use(express.static("public"));
 
 //  سینگل یک دانه فایل ارسال میکند یک فایل را بخواهیم ارسال کنیم
 
-// app.post("/upload", uploadFile.single("image"), (req, res) => {
-//   res.send(req.file);
-// });
-app.post("/upload", uploadFile.array("image", 3), (req, res) => {
+app.post("/upload-single", uploadFile.single("image"), (req, res) => {
+  res.send(req.file);
+});
+app.post("/upload-array", uploadFile.array("image", 3), (req, res) => {
   res.send(req.files);
 });
+app.post("/upload-any", uploadFile.any("image", 3), (req, res) => {
+  res.send(req.files);
+});
+app.post(
+  "/upload-fields",
+  uploadFile.fields([
+    { name: "image", maxCount: 2 },
+    { name: "file", maxCount: 1 },
+  ]),
+  (req, res) => {
+    res.send(req.files);
+  }
+);
 app.use(notFound);
 app.use(errorHandler);
 
