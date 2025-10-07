@@ -1,0 +1,11 @@
+<svg width="136" height="136" viewBox="0 0 136 136" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path opacity="0.2" d="M93.4997 51.3828V65.8753C93.4997 75.4378 77.9659 83.3269 57.6562 84.7666C65.0459 87.5662 74.5872 89.2503 84.9997 89.2503C108.47 89.2503 127.5 80.6866 127.5 70.1253C127.5 60.8709 112.901 53.1572 93.4997 51.3828Z" fill="#FECA40"/>
+<path opacity="0.2" d="M51 27.25C62.5472 27.25 72.9168 29.3595 80.334 32.6973C87.9154 36.1089 91.75 40.4614 91.75 44.625C91.75 48.7886 87.9154 53.1411 80.334 56.5527C72.9168 59.8905 62.5472 62 51 62C39.4528 62 29.0832 59.8905 21.666 56.5527C14.0846 53.1411 10.25 48.7886 10.25 44.625C10.25 40.4614 14.0846 36.1089 21.666 32.6973C29.0832 29.3595 39.4528 27.25 51 27.25Z" fill="#FECA40" stroke="#FECA40" stroke-width="3.5"/>
+<path d="M51 63.75C74.4721 63.75 93.5 55.1874 93.5 44.625C93.5 34.0626 74.4721 25.5 51 25.5C27.5279 25.5 8.5 34.0626 8.5 44.625C8.5 55.1874 27.5279 63.75 51 63.75Z" stroke="#FECA40" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M8.5 44.625V65.875C8.5 76.4362 27.5294 85 51 85C74.4706 85 93.5 76.4362 93.5 65.875V44.625" stroke="#FECA40" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M34 62.1562V83.4062" stroke="#FECA40" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M93.4997 51.3828C112.901 53.1572 127.5 60.8709 127.5 70.1253C127.5 80.6866 108.47 89.2503 84.9997 89.2503C74.5872 89.2503 65.0459 87.5662 57.6562 84.7666" stroke="#FECA40" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M42.5 84.6175V91.375C42.5 101.936 61.5294 110.5 85 110.5C108.471 110.5 127.5 101.936 127.5 91.375V70.125" stroke="#FECA40" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M102 87.6562V108.906" stroke="#FECA40" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M68 62.1562V108.906" stroke="#FECA40" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
