@@ -39,7 +39,7 @@ function initRoutes(passport) {
       await userModel.create({
         fullName,
         username,
-        password,
+        password: hashPassword,
       });
       res.redirect("/login");
     } catch (error) {
